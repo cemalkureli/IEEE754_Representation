@@ -74,7 +74,7 @@ empty_label = tk.Label()
 empty_label.pack(anchor="w")
 input_label2 = tk.Label(text="0: Half Precision\n1: Single Precision\n"
                           +"2: Double Precision\n3: Quadruple Precision\n"
-                          +"4: Octuple Precision\n\nEnter Precision (1, 2, 3, 4)")
+                          +"4: Octuple Precision\n\nEnter Precision (0, 1, 2, 3, 4)")
 input_label2.pack()
 empty_label = tk.Label()
 empty_label.pack()
